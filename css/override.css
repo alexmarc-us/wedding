@@ -1,0 +1,27 @@
+body {
+    color: #434868 !important;
+}
+
+div.borders {
+    position: relative;
+    border: 5px solid #434868;
+    margin-top:1vh;
+    margin-bottom:1vh;
+}
+
+div.borders:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px solid #434868;
+  }
+  
+  #chelsea-and-alex {
+      width: 60%;
+      height: auto;
+      margin: 0 auto;
+  }
