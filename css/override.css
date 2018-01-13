@@ -3,8 +3,17 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
-h4 {
+h4, .navbar-item, .button {
     color: #434868 !important;
+}
+
+.navbar-item img {
+    max-height: 3rem;
+}
+
+.navbar-brand .navbar-item {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 div.borders {
@@ -29,6 +38,7 @@ div.borders:before {
     width: 60%;
     height: auto;
     margin: 0 auto;
+    min-width:300px;
 }                
 
 .embed-container {
