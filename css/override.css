@@ -4,9 +4,29 @@ whtml, body {
 
 body {
     color: #434868 !important;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
+/* FONTS */
+h1, h1.title {
+    font-family: 'Sail', cursive;
+    font-size: 3rem;
+}
+
+h2, h3 {
+    font-family: 'Amaranth', sans-serif;
+}
+
+blockquote {
+    font-family: 'Pattaya', sans-serif;
+}
+
+.navbar-item {
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+/* NAV */
 h4, .navbar-item, .button {
     color: #434868 !important;
 }
@@ -19,6 +39,16 @@ h4, .navbar-item, .button {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+div.navbar-end {
+    margin: 0 auto;
+}
+
+div.navbar-end .navbar-item {
+    margin-left:5%;
+}
+
+/* Wrapping borders */
 
 div.borders {
     position: relative;
@@ -40,12 +70,50 @@ div.borders:before {
     border: 5px solid #434868;
 }
 
+/* HEROES */
+.hero .hero-body {
+    background-size:cover !important; 
+    height: 40vh;
+}
+
+.hero#party .hero-body {
+    background: url('../img/10degrees.jpg') top center;  
+}
+
+.hero#wedding .hero-body {
+    background: url('../img/mountains.jpg') top center;  
+}
+
+.hero#registry .hero-body {
+    background: url('../img/patagonia.jpg') top center;  
+}
+
+.hero#directions .hero-body {
+    background: url('../img/boots.jpg') bottom center;  
+}
+
+/* CONTENT */
+@media screen and (min-width: 1400px) {
+    .content {
+        padding: 0 10%;
+    }
+}
+
+/* PAGE SPECIFIC */
+
 #chelsea-and-alex {
     width: 60%;
     height: auto;
     margin: 0 auto;
     min-width:300px;
-}                
+}
+
+.content blockquote {
+    background-color: #e6e9fb;
+    border-left: 5px solid #cacbec;
+}
+
+/* MAP EMBED */
 
 .embed-container {
     position: relative;
