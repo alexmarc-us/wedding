@@ -7,6 +7,17 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+a {
+    color:#434868;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1408px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
 /* FONTS */
 h1, h1.title {
     font-family: 'Sail', cursive;
@@ -18,7 +29,7 @@ h2, h3 {
 }
 
 blockquote {
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Satisfy', cursive;
     font-size: 1.3rem;
 }
 
@@ -32,6 +43,10 @@ h4, .navbar-item, .button {
     color: #434868 !important;
 }
 
+a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active {
+    background-color: #e6e9fb;
+}
+
 .navbar-item img {
     max-height: 3rem;
 }
@@ -41,9 +56,9 @@ h4, .navbar-item, .button {
     padding-bottom: 0;
 }
 
-div.navbar-end {
+/* div.navbar-end {
     margin: 0 auto;
-}
+} */
 
 div.navbar-end .navbar-item {
     margin-left:5%;
@@ -77,40 +92,56 @@ div.borders:before {
     height: 40vh;
 }
 
+.hero#index .hero-body {
+    background: url('../img/ChelseaAlex042.jpg') center center;
+}
+
 .hero#party .hero-body {
-    background: url('../img/10degrees.jpg') top center;  
+    background: url('../img/ChelseaAlex068.jpg') center center;  
+}
+
+.hero#party2 .hero-body {
+    background: url('../img/ChelseaAlex032.jpg') center center;  
 }
 
 .hero#wedding .hero-body {
+    background: url('../img/ChelseaAlex014.jpg') top center;  
+}
+
+.hero#wedding2 .hero-body {
     background: url('../img/mountains.jpg') top center;  
 }
 
 .hero#registry .hero-body {
-    background: url('../img/patagonia.jpg') top center;  
+    background: url('../img/ChelseaAlex137.jpg') center center;  
+}
+
+.hero#registry2 .hero-body {
+    background: url('../img/ChelseaAlex105.jpg') center center;  
 }
 
 .hero#directions .hero-body {
     background: url('../img/boots.jpg') bottom center;  
 }
 
-/* CONTENT */
-@media screen and (min-width: 1400px) {
-    .content {
-        padding: 0 10%;
-    }
+.hero#directions2 .hero-body {
+    background: url('../img/ChelseaAlex059.jpg') bottom center;  
+}
+
+.hero .hero-foot h1 {
+    margin-top: 1rem;
 }
 
 /* PAGE SPECIFIC */
 
-#chelsea-and-alex {
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    min-width:300px;
+.hero#index .container, .hero#index .container h4 {
+    color: white !important;
+    text-shadow: 2px 2px 2px #434868;
 }
 
 .content blockquote {
     background-color: #e6e9fb;
+    font-weight: normal;
     border-left: 5px solid #cacbec;
 }
 
