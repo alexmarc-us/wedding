@@ -139,6 +139,10 @@ div.borders:before {
     text-shadow: 2px 2px 2px #434868;
 }
 
+.hero#index > div > div > h3:nth-child(5) > a {
+    color: white;
+}
+
 .content blockquote {
     background-color: #e6e9fb;
     font-weight: normal;
