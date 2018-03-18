@@ -56,14 +56,6 @@ a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link
     padding-bottom: 0;
 }
 
-/* div.navbar-end {
-    margin: 0 auto;
-} */
-
-div.navbar-end .navbar-item {
-    margin-left:5%;
-}
-
 /* Wrapping borders */
 
 div.borders {
@@ -110,6 +102,14 @@ div.borders:before {
 
 .hero#wedding2 .hero-body {
     background: url('../img/mountains.jpg') top center;  
+}
+
+.hero#lodging .hero-body {
+    background: url('../img/ChelseaAlex102.jpg') center center;  
+}
+
+.hero#lodging2 .hero-body {
+    background: url('../img/ChelseaAlex071.jpg') center center;  
 }
 
 .hero#registry .hero-body {
